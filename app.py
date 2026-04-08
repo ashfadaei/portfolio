@@ -4,6 +4,7 @@ from flask_frozen import Freezer
 
 
 app = Flask(__name__)
+app.config['FREEZER_RELATIVE_URLS'] = True
 freezer = Freezer(app)
 app.jinja_env.globals['enumerate'] = enumerate
 
@@ -24,7 +25,7 @@ PROFILE = {
         "Maintainer of <a href=\"https://leoscope.surrey.ac.uk\" style=\"text-decoration: underline;\">LEOScope</a>"
     ),
     "tagline": "I study the internet architecture for now...",
-    "avatar": "/static/img/avatar.png",
+    "avatar": "img/avatar.png",
 }
 
 INTERESTS = [
