@@ -11,7 +11,7 @@ app.jinja_env.globals['enumerate'] = enumerate
 # ── DATA ──────────────────────────────────────────────────────────────────────
 
 PROFILE = {
-    "name": "Saeed \"Ash\" Fadaei",
+    "name": "Saeed Fadaei",
     "role": "PhD Researcher in Computer Science",
     "org": "University of Surrey",
     "org_url": "https://www.surrey.ac.uk/",
